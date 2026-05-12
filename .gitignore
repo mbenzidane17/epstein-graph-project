@@ -1,25 +1,53 @@
 # macOS
 .DS_Store
+.AppleDouble
+.LSOverride
 
 # Python
-venv/
-.venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+myenv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Logs
+*.log
 
 # Node / React
 node_modules/
 site/node_modules/
-site/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
 
-# Data raw / fichiers générés lourds
+# Build outputs
+dist/
+site/dist/
+build/
+site/build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Raw/generated heavy data
 data/raw/
+data/raw/**
 *.jsonl
 
-# Archives / anciens tests
+# Old archive / backup scripts
 archive/
 
-# Neo4j local
+# Neo4j local files
 *.db
 *.dump
 
@@ -27,5 +55,5 @@ archive/
 .vscode/
 .idea/
 
-# Netlify
+# Netlify local config
 .netlify/
