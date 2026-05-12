@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node / React
+node_modules/
+site/node_modules/
+site/dist/
+
+# Data raw / fichiers générés lourds
+data/raw/
+*.jsonl
+
+# Archives / anciens tests
+archive/
+
+# Neo4j local
+*.db
+*.dump
+
+# IDE
+.vscode/
+.idea/
+
+# Netlify
+.netlify/

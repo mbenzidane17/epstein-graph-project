@@ -1,0 +1,7 @@
+pandas
+requests
+beautifulsoup4
+neo4j
+networkx
+matplotlib
+python-louvain
