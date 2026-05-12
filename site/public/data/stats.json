@@ -1,0 +1,27 @@
+{
+  "node_count": 390,
+  "relation_count": 500,
+  "total_email_relations": 2714,
+  "strongest_relation": {
+    "source": "Jeffrey Epstein",
+    "target": "Ehud Barak",
+    "weight": 218,
+    "first_date": "2013-04-20T03:38:37.000Z",
+    "last_date": "2016-03-14T15:51:55.000Z",
+    "recipient_types": "to"
+  },
+  "most_connected_person": {
+    "id": "Jeffrey Epstein",
+    "label": "Jeffrey Epstein",
+    "sent_count": 1190,
+    "received_count": 1260,
+    "total_count": 2450
+  },
+  "graph_node_count": 152,
+  "graph_link_count": 205,
+  "graph_limits": {
+    "max_nodes": 180,
+    "max_links": 450,
+    "min_link_weight": 2
+  }
+}
